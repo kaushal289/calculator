@@ -97,13 +97,13 @@ button_9 = Button(root, text="9", font=('Times New Roman', 20), image=button, co
                   command=lambda: button_click(9), borderwidth=0)
 button_0 = Button(root, text="0", font=('Times New Roman', 20), image=button, compound=CENTER, padx=0, pady=0,
                   command=lambda: button_click(0), borderwidth=0)
-button_add = Button(root, text="+", font=('Times New Roman', 20), image=squ, compound=CENTER, padx=0, pady=0,
+button_add = Button(root, text="+", font=('Times New Roman', 20,"bold"), image=squ, compound=CENTER, padx=0, pady=0,
                     command=button_add, borderwidth=0)
-button_sub = Button(root, text="-", font=('Times New Roman', 20), image=squ, compound=CENTER, padx=0, pady=0,
+button_sub = Button(root, text="-", font=('Times New Roman', 20,"bold"), image=squ, compound=CENTER, padx=0, pady=0,
                     command=button_sub, borderwidth=0)
-button_mul = Button(root, text="*", font=('Times New Roman', 20), image=squ, compound=CENTER, padx=0, pady=0, command=button_mul, borderwidth=0)
-button_div = Button(root, text="/", font=('Times New Roman', 20), image=squ, compound=CENTER, padx=0, pady=0, command=button_div, borderwidth=0)
-button_equal = Button(root, text="=", font=('Times New Roman', 20), image=equal, compound=CENTER, padx=20, pady=0, command=button_equal, borderwidth=0)
+button_mul = Button(root, text="*", font=('Times New Roman', 20,"bold"), image=squ, compound=CENTER, padx=0, pady=0, command=button_mul, borderwidth=0)
+button_div = Button(root, text="/", font=('Times New Roman', 20,"bold"), image=squ, compound=CENTER, padx=0, pady=0, command=button_div, borderwidth=0)
+button_equal = Button(root, text="=", font=('Times New Roman', 20,"bold"), image=equal, compound=CENTER, padx=20, pady=0, command=button_equal, borderwidth=0)
 button_clear = Button(root, text="Clear", font=('Times New Roman', 20), image=clear, compound=CENTER, padx=0, pady=0, command=button_clear, borderwidth=0)
 
 # putting buttons on the screen
