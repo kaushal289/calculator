@@ -7,6 +7,7 @@ In this project, a simple calculator is made using tkinter library. It can perfo
 <img src="calculator1/Capture.png"/>
 <h2 align="left">Functions of the calculator</h2>
 This mathematical calculater can perform these functions:
+
 * Addition
 * Subtraction
 * Multiplication
