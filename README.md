@@ -1,5 +1,5 @@
 <p align="center">
-  //# **Calculator**
+  # **Calculator**
  </p>
 ## Introduction
 
